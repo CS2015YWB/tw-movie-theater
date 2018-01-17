@@ -1,0 +1,17 @@
+.where{
+    position: relative;
+    top: 10px;
+    font-size: x-large;
+}
+.city{
+    position: relative;
+    top: 10px;
+    margin: 10px 10px 10px 10px;
+}
+.status{
+    position: relative;
+    margin: 0px 10px 10px 10px;
+}
+.koubeirank p, .koubeirank span{
+    font-size: small;
+}

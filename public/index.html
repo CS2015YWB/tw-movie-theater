@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="https://school.thoughtworks.cn/bbs/favicon.ico?v=j72lhd7ua98" />
+        <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="./css/head.css"/>
+        <link rel="stylesheet" href="./css/slide.css"/>
+        <link rel="stylesheet" href="./css/nav.css"/>
+        <link rel="stylesheet" href="./css/filminfo.css"/>
+        <link rel="stylesheet" href="./css/footer.css"/>
+        <link rel="stylesheet" href="./css/classify.css"/>
+    </head>
+    <body>
+    <div class="container-fluid">
+        <!--head-->
+        <div class="row head">
+            <div class="col-md-4">
+                <a href="./index.html"><img src="./img/tws.png" class="logo"></a>
+            </div>
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-4">
+                <form action="" method="get">
+                    <a href="#scroll"><input type="button" name="search_button" id="search_button" onclick="show(3)"></a>
+                    <input type="text" name="search_text" id="search_text" placeholder="Search"/>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="slideimg">
+        <div class="shutter">
+            <div class="shutter-img">
+                <a href="#" data-shutter-title="CLOUD ATLAS"><img src="img/shutter_1.jpg" alt="#"></a>
+                <a href="#" data-shutter-title="加勒比海盗"><img src="img/shutter_2.jpg" alt="#"></a>
+                <a href="#" data-shutter-title="全城惊变"><img src="img/shutter_3.jpg" alt="#"></a>
+                <a href="#" data-shutter-title="独立日"><img src="img/shutter_4.jpg" alt="#"></a>
+            </div>
+            <ul class="shutter-btn">
+                <li class="prev"></li>
+                <li class="next"></li>
+            </ul>
+            <div class="shutter-desc">
+                <p>独立日</p>
+            </div>
+        </div>
+        <div id="scroll" style="height: 50px"></div>
+    </div>
+    <div class="nav">
+        <ul class="list">
+            <li><a href="#scroll" id="tag1" onclick="show(1)">影讯</a></li>
+            <li><a href="#scroll" id="tag2" onclick="show(2)">分类</a></li>
+            <li><a href="#" id="tag3" onclick="show(3)"></a></li>
+            <li><a href="#" id="tag4" onclick="show(4)"></a></li>
+            <li><a href="#" id="tag5" onclick="show(5)"></a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div id="ctn">
+            <!--影讯-->
+            <div id="d1" class="holder" style="display: block">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <span class="where">最近上映</span>
+                            <div class="row" id="newfilms" style="margin-top: 20px">
+                                <!--影讯-->
+                            </div>
+                            <span class="where">高分电影</span>
+                            <div class="row" id="highscorefilms" style="margin-top: 20px">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="koubeirank">
+                                <h1></h1>
+                                <h2></h2>
+                                <n3></n3>
+                                <h4>本周口碑榜<span><a href="#">  更多榜单»</a></span></h4>
+                            </div>
+                            <div>
+                                <table class="table">
+                                    <tr>
+                                        <td class="order">1</td>
+                                        <td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/26799731/">请以你的名字呼唤我</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order">2</td>
+                                        <td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/26611804/">三块广告牌</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order">3</td>
+                                        <td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/25944886/">灾难艺术家</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order">4</td>
+                                        <td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/26389152/">再见，克里斯托弗·罗宾</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order">5</td>
+                                        <td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/26588314/">伯德小姐</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order">6</td>
+                                        <td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/26631663/">尼斯·疯狂的心</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order">7</td>
+                                        <td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/22265634/">星球大战8：最后的绝地武士</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order">8</td>
+                                        <td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/27054071/">准备</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order">9</td>
+                                        <td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/27594850/">两束光</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order">10</td>
+                                        <td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/26718407/">小学生</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--分类-->
+            <div id="d2" class="holder">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!--分类-->
+                            <div id="classify_page">
+                                <div class="row movie-classify">
+                                    <div id="cat" class="col-lg-12 col-md-12 col-xs-12">
+                                        <div class="category ">
+                                            <div class="row">
+                                                <div class="col-lg-1 col-md-2 col-xs-4">
+                                                    <div class="zxcvb">
+                                                        <ul><li id="quanbuxingshi"><a href="javascript:;" onclick="producePaginationForAllMovie()">全部形式</a></li></ul></div>
+                                                </div>
+                                                <div class="col-lg-11 coml-md-10 col-xs-12">
+                                                    <div class="row zxcvb">
+                                                        <ul id="abq">
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--插入电影-->
+                                <div class="row movie-box" id="showmovie">
+                                    <div id="addMovieDiv" class="col-lg-12 col-md-12 col-xs-12">
+
+                                    </div>
+                                </div>
+                                <div id="fenye">
+                                    <ul class="pager"id="innerfenye">
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                <script src="./js/jquery.min.js"></script>
+                <!-- Include all compiled plugins (below), or include individual files as needed -->
+                <script src="./js/bootstrap.min.js"></script>
+                <script src="./js/movie_div.js"></script>
+                <script>
+                    producePaginationForAllMovie();
+                    getAllClassify();
+                </script>
+            </div>
+            <!--搜索-->
+            <div id="d3" class="holder">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="searchresult">
+                                <div id="error"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--无功能-->
+            <div id="d4" class="holder">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-xs-12">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--影评-->
+            <div id="d5" class="holder">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-9" style="background-color: #7f737b; height: 1000px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--页脚-->
+    <div class="footer">
+        <p class="copyright foot">
+            Copyright &copy; 2018.1
+        </p>
+    </div>
+    </body>
+    <!--轮播图-->
+    <script src="./js/velocity.js"></script>
+    <script src="./js/shutter.js"></script>
+    <script>
+        var winWidth = (document.documentElement.scrollWidth>document.documentElement.clientWidth) ? document.documentElement.scrollWidth : document.documentElement.scrollWidth;
+        $(function () {
+            $('.shutter').shutter({
+                shutterW: winWidth, // 容器宽度
+                shutterH: 358,      // 容器高度
+                isAutoPlay: true,   // 是否自动播放
+                playInterval: 3000, // 自动播放时间
+                curDisplay: 3,      // 当前显示页
+                fullPage: false     // 是否全屏展示
+            });
+        });
+    </script>
+    <!--导航栏-->
+    <script src="./js/nav.js"></script>
+    <script src="./js/newfilms.js"></script>
+    <script src="./js/search.js"></script>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>about</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/head.css"/>
+    <link rel="stylesheet" href="./css/footer.css"/>
+    <link rel="stylesheet" href="./css/classify.css"/>
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <style>
+        html, body{
+            min-height: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <!--head-->
+    <div class="row head">
+        <div class="col-xs-6 col-md-4 col-lg-4">
+            <a href="./index.html"><img src="./img/tws.png" class="logo"></a>
+        </div>
+        <div class="col-md-4 col-lg-4">
+
+        </div>
+        <div class="col-xs-6 col-md-4 col-lg-4">
+            <form action="" method="get">
+                <input type="button" name="search_button" id="search_button">
+                <input type="text" name="search_text" id="search_text" placeholder="Search"/>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container" style="margin-top: 50px">
+    <div class="row xiangxixinxi">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+            <h2 id=title></h2>
+        </div>
+        <div class="col-xs-12 col-md-8 col-lg-8">
+            <div class="col-xs-12 col-md-3 col-lg-3">
+                <img id=image style="width:100%">
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-6 table-responsive">
+                <table style="font-size:130%;border: 0px" class="table">
+                    <tr>
+                        <td width='22%'>导演：<br></td>
+                        <td id=directors></td>
+                    </tr>
+                    <tr>
+                        <td >主演：</td>
+                        <td id=casts></td>
+                    </tr>
+                    <tr>
+                        <td>类型：</td>
+                        <td id=genre></td>
+                    </tr>
+                    <tr>
+                        <td>年份：</td>
+                        <td id=year></td>
+                    </tr>
+                    <tr>
+                        <td>别名：</td>
+                        <td id=original_title></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-xs-12 col-md-3 col-lg-3">
+                <blockquote style="font-size: 1.6em">电影评分</blockquote>
+                <p style="font-size: 5em;text-align: center;" id=rating></p>
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-12">
+                <h4 >剧情简介</h4>
+                <blockquote id=introduction></blockquote>
+                <h4 >精彩影评</h4>
+                <p id=comment></p>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4 col-lg-4">
+            <div id = genrating>
+                <h3>此类好评</h3>
+            </div>
+            <!--相关电影模块-->
+            <div id = xiangguan></div>
+        </div>
+    </div>
+    <div class="row" id="searchresult">
+        <!--搜索结果展示-->
+        <div id="error"></div>
+    </div>
+</div>
+<!--页脚-->
+<div class="footer">
+    <p class="copyright foot">
+        Copyright &copy; 2018.1
+    </p>
+</div>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/detials.js"></script>
+<script src="./js/search.js"></script>
+</body>
+</html>

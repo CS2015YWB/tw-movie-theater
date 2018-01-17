@@ -1,0 +1,40 @@
+.nav{
+    height: 40px;
+    background: #C9D6DF;
+    position: relative;
+}
+.list{
+    height: 40px;
+    margin: 0px auto;
+}
+li{
+    list-style-type:none;
+}
+.list li{
+    position: relative;
+    float: left;
+}
+.list li a{
+    color: #272121;
+    padding: 0 30px;
+    line-height: 40px;
+    display: block;
+}
+.list li:hover a{
+    background: #52616B;
+    color: #FFFFFF;
+}
+#ctn
+{
+    width: 100%;
+    position: relative;
+}
+div.holder
+{
+    position: relative;
+    display: none;
+}
+.content{
+    position: relative;
+    width: 100%;
+}

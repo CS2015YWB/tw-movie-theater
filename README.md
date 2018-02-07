@@ -2,6 +2,14 @@
 
 # 思沃影院
 
+## 安装启动方法
+- `git clone git@github.com:CS2015YWB/tw-movie-theater.git`
+* `cd tw-movie-theater/src/`
+* `npm install --save express`
+* `npm install --save orm`
+* `npm install --save sqlite3`
+* `node index.js`
+
 ## 主要开发框架
 - 前端： Bootstrap，jQuery;
 - 后台： Node.js, express, orm, sqlite3
@@ -94,20 +102,17 @@
 
 ## 关键页面展示
 
-> - 影讯
+- 影讯
 ![影讯](http://p3s8etcsq.bkt.clouddn.com/%E5%BD%B1%E8%AE%AF.png)
 
-> - 分类
+- 分类
 ![分类](http://p3s8etcsq.bkt.clouddn.com/%E5%88%86%E7%B1%BB%E9%A1%B5%E9%9D%A2.png)
 
-
-> - 电影详细信息
+- 电影详细信息
 ![详细页面](http://p3s8etcsq.bkt.clouddn.com/%E8%AF%A6%E7%BB%86%E9%A1%B5%E9%9D%A2.png)
 
-
-> - 搜索1（主界面）
+- 搜索1（主界面）
 ![搜索1](http://p3s8etcsq.bkt.clouddn.com/%E6%90%9C%E7%B4%A21%EF%BC%88%E4%B8%BB%E7%95%8C%E9%9D%A2%EF%BC%89.png)
 
-
-> - 搜索2（详细页面）
+- 搜索2（详细页面）
 ![搜索2](http://p3s8etcsq.bkt.clouddn.com/%E6%90%9C%E7%B4%A22%EF%BC%88%E8%AF%A6%E7%BB%86%E9%A1%B5%E9%9D%A2%EF%BC%89.png)

@@ -4,11 +4,11 @@
 
 ## 安装启动方法
 - `git clone git@github.com:CS2015YWB/tw-movie-theater.git`
-* `cd tw-movie-theater/src/`
-* `npm install --save express`
-* `npm install --save orm`
-* `npm install --save sqlite3`
-* `node index.js`
+- `cd tw-movie-theater/src/`
+- `npm install --save express`
+- `npm install --save orm`
+- `npm install --save sqlite3`
+- `node index.js`
 
 ## 主要开发框架
 - 前端： Bootstrap，jQuery;

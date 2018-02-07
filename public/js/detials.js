@@ -86,8 +86,8 @@ function xiangguan(res) {
     for(let i = 0; i<len;i++){
         html+= "<div class='col-xs-4 col-md-4 col-lg-4' style='height:160px'>"+
             "<a href='javascript:;' onclick='turnover("+res[i].id+")'>"+
-            `<img height='80%' src='${res[i].image}'>`+
-            "<p style='text-align: center;font-size: 60%;margin-top: 5px'>"+res[i].title+
+            `<img height='80%' src='${res[i].image}' alt='${res[i].title}'>`+
+            "<p style='text-align: center;font-size: 60%; margin-top: 5px'>"+res[i].title+
             "</p>"+"</a>"+"</div>";
     }
     document.getElementById("xiangguan").innerHTML = html;

@@ -80,8 +80,6 @@
 - 支持按照评分显示高分电影
 - 页面页脚显示网站访客人数和人次
 
-
-
 ## 后台API接口
 - 获取所有电影： `/movies`
 - 获取最新电影： `/newfilms`
@@ -93,3 +91,23 @@
 - 电影相应评论： `/comment`
 - 某类电影排行： `/genrating`
 - 获取相关电影： `/xiangguan`
+
+## 关键页面展示
+
+> - 影讯
+![影讯](http://p3s8etcsq.bkt.clouddn.com/%E5%BD%B1%E8%AE%AF.png)
+
+> - 分类
+![分类](http://p3s8etcsq.bkt.clouddn.com/%E5%88%86%E7%B1%BB%E9%A1%B5%E9%9D%A2.png)
+
+
+> - 电影详细信息
+![详细页面](http://p3s8etcsq.bkt.clouddn.com/%E8%AF%A6%E7%BB%86%E9%A1%B5%E9%9D%A2.png)
+
+
+> - 搜索1（主界面）
+![搜索1](http://p3s8etcsq.bkt.clouddn.com/%E6%90%9C%E7%B4%A21%EF%BC%88%E4%B8%BB%E7%95%8C%E9%9D%A2%EF%BC%89.png)
+
+
+> - 搜索2（详细页面）
+![搜索2](http://p3s8etcsq.bkt.clouddn.com/%E6%90%9C%E7%B4%A22%EF%BC%88%E8%AF%A6%E7%BB%86%E9%A1%B5%E9%9D%A2%EF%BC%89.png)
